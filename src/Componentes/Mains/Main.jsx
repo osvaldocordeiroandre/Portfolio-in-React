@@ -94,7 +94,7 @@ function Main() {
                         <form data-aos="fade-right" action="https://formsubmit.co/ajknew2022@gmail.com" method='POST'>
                             <input type="text" name='Your Name' placeholder='Your Name...' required />
                             <input className='inputEmail' type="email" name="Your Email Addres" placeholder='Your Email Address...' required id="" />
-                            <input type="hidden" name="_next" value=""/>
+                            <input type="hidden" name="_next" value="https://osvaldocordeiroandre.github.io/Portfolio-in-React/"/>
                             <textarea name="Message" placeholder='Your Message...' required cols="30" rows="10" id=""></textarea>
                             <button className='ButtonS' type="submit">SEND</button>
                         </form>
