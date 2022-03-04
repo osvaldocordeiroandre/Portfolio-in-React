@@ -10,7 +10,7 @@ function Header() {
 
         <header>
 
-            <a href=""><img className='logo' src='logo/logo.png' /></a>
+            <img className='logo' src='' />
 
             <div className='test'>
                 <nav className={active ? 'menu menuOpen' : "menu menuClose"}>
