@@ -1,0 +1,280 @@
+.TypeWri{
+    color: orange;
+
+    margin-left: 1rem;
+}
+
+.TypeMain{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 2rem;
+}
+
+h1{
+    color: white;
+}
+
+/*content area*/
+
+.content{
+    width: 50%;
+
+    margin: auto;
+    margin-top: 4rem;
+}
+
+.span-content{
+    color: white;
+}
+
+.Span-portuguese{
+    margin-top: 2rem;
+}
+
+.span-content-portuguese{
+    color: white;
+}
+
+.designer{
+    display: flex;
+    justify-content: center;
+}
+
+.shirt{
+    width: 50%;
+
+    margin-top: 2rem;
+}
+
+/*Designer*/
+
+.designer-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.designer-text-main{
+    width: 30%;
+}
+
+.designer-img{
+    width: 40%;
+}
+
+.span-designer{
+    color: white;
+}
+
+section{
+    border: .1px solid white;
+
+    opacity: 10%;
+
+    margin-top: 2rem;
+}
+
+.span-designer-portuguese{
+    color: white;
+}
+
+.portuguese-version{
+    margin-top: 2rem;
+}
+
+/*Etiqueta*/
+
+.etiqueta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.etiqueta-img{
+    width: 30%;
+
+    transform: rotate(-30deg);
+}
+
+.etiqueta-text{
+    color: white;
+
+    width: 30%;
+}
+
+.etiqueta-text-2{
+    margin-top: 2rem;
+}
+
+/*Projects*/
+
+.projects-main{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 2rem;
+}
+
+.project{
+    color: white;
+}
+
+.projects-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.space{
+    margin-left: 2rem;
+    margin-top: 2rem;
+
+    opacity: 60%;
+
+    cursor: pointer;
+
+    transition: .3s ease-in-out;
+}
+
+.space:hover{
+    outline: auto;
+
+    opacity: 100%;
+
+    transform: scale(1.2);
+
+    transition: .3s ease-in-out;
+}
+
+/*Contact*/
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 2.5rem;
+}
+
+.inputEmail{
+    margin-top: 1.875rem;
+
+    color: white;
+
+    background-color: transparent;
+}
+
+.ButtonS{
+    margin-top: 1.875rem;
+}
+
+textarea{
+    margin-top: 1.875rem;
+
+    background-color: transparent;
+
+    resize: none;
+
+    width: 37rem;
+
+    padding: 0.625rem;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    color: white;
+   
+    outline: none;
+}
+
+textarea:hover{
+    border: 1px solid white;
+}
+
+input{
+    padding: 0.375rem;
+
+    color: white;
+
+    background-color: transparent;
+
+    width: 37.5rem;
+    height: 1.25rem;
+
+    border-radius: 0.25rem;
+
+    border: 1px solid white;
+
+    opacity: 50%;
+
+    outline: none;
+    
+}
+
+input:hover{
+    opacity: 100%;
+}
+
+button{
+    background: none;
+
+    color: white;
+    
+    border: none;
+
+    font-weight: 600;
+    font-size: 1.5rem;
+
+    margin-bottom: 4rem;
+
+    opacity: 50%;
+
+    cursor: pointer;
+    
+}
+
+button:hover{
+    opacity: 100%;
+}
+
+.Contact{
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 100;
+}
+
+@Media (max-width:671px){
+    .inputEmail{
+        width: 80%;
+    }
+
+    input{
+        width: 80%;
+    }
+
+    textarea{
+        width: 80%;
+    }
+    
+}
+
+/*section line2*/
+
+.line2{
+    width: 10%;
+
+    margin: auto;
+    margin-top: .4rem;
+}
